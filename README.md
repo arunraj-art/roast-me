@@ -71,12 +71,41 @@ When the user enters their name and clicks **Generate**, JavaScript randomly sel
 
 If the user doesn't enter a name, the application displays a message asking them to enter their name first.
 
+# Workflow
+       ┌───────────────┐
+       │     User      │
+       └───────┬───────┘
+               │
+               ▼
+       ┌───────────────┐
+       │  Enter Name   │
+       └───────┬───────┘
+               │
+               ▼
+       ┌───────────────┐
+       │ Generate Btn  │
+       └───────┬───────┘
+               │
+               ▼
+       ┌───────────────┐
+       │   JavaScript  │
+       │ Randomization │
+       └───────┬───────┘
+               │
+        ┌──────┴──────┐
+        ▼             ▼
+ ┌────────────┐ ┌────────────┐
+ │ Compliment │ │   Insult   │
+ └──────┬─────┘ └──────┬─────┘
+        │              │
+        └──────┬───────┘
+               ▼
+       ┌───────────────┐
+       │ Generated     │
+       │     Roast     │
+       └───────────────┘
+
 ## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/tinkerhub/useless_project_temp.git
 
 
 Made with ❤️ at TinkerHub Useless Projects 
