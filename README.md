@@ -71,6 +71,20 @@ When the user enters their name and clicks **Generate**, JavaScript randomly sel
 
 If the user doesn't enter a name, the application displays a message asking them to enter their name first.
 
+## Screenshots
+
+### 1. Home Page
+
+![Compliment-Insult Machine - Home Page](home-page.png)
+
+This screenshot shows the initial interface of the application. It contains the **Compliment-Insult Machine** title, a name input field, the **Generate** button, and a message indicating where the generated roast will appear.
+
+### 2. Generated Roast
+
+![Compliment-Insult Machine - Generated Roast](generated-roast.png)
+
+This screenshot shows the application after a name has been entered and the **Generate** button has been clicked. The application displays a randomly generated compliment followed by a humorous insult for the entered name.
+
 # Workflow
        ┌───────────────┐
        │     User      │
