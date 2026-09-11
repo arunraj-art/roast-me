@@ -107,6 +107,9 @@ If the user doesn't enter a name, the application displays a message asking them
 
 ## Installation
 
+Clone the repository
+Navigate to the project folder
+Open index.html in any modern web browser.
 
 Made with ❤️ at TinkerHub Useless Projects 
 
