@@ -91,6 +91,14 @@ This screenshot shows the application after a name has been entered and the **Ge
 
 The workflow shows how the Compliment-Insult Machine works from start to finish. The user enters their name and clicks **Generate**. JavaScript checks the input, randomly selects a compliment and an insult, combines them with the name, and displays the generated roast. If no name is entered, the application asks the user to enter their name first.
 
+## Project Demo
+
+### Video
+
+https://drive.google.com/file/d/1RqFCUbNtOrYarSVdXP8psArS2AExThoq/view?usp=drive_link
+
+This screen recording demonstrates the complete working of the Compliment-Insult Machine, including entering a name, clicking the Generate button, and displaying the randomly generated compliment-insult message.
+
 ## Installation
 
 Clone the repository
