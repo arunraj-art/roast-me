@@ -86,38 +86,10 @@ This screenshot shows the initial interface of the application. It contains the 
 This screenshot shows the application after a name has been entered and the **Generate** button has been clicked. The application displays a randomly generated compliment followed by a humorous insult for the entered name.
 
 # Workflow
-       ┌───────────────┐
-       │     User      │
-       └───────┬───────┘
-               │
-               ▼
-       ┌───────────────┐
-       │  Enter Name   │
-       └───────┬───────┘
-               │
-               ▼
-       ┌───────────────┐
-       │ Generate Btn  │
-       └───────┬───────┘
-               │
-               ▼
-       ┌───────────────┐
-       │   JavaScript  │
-       │ Randomization │
-       └───────┬───────┘
-               │
-        ┌──────┴──────┐
-        ▼             ▼
- ┌────────────┐ ┌────────────┐
- │ Compliment │ │   Insult   │
- └──────┬─────┘ └──────┬─────┘
-        │              │
-        └──────┬───────┘
-               ▼
-       ┌───────────────┐
-       │ Generated     │
-       │     Roast     │
-       └───────────────┘
+
+![Compliment-Insult Machine Workflow](workflow.png)
+
+The workflow shows how the Compliment-Insult Machine works from start to finish. The user enters their name and clicks **Generate**. JavaScript checks the input, randomly selects a compliment and an insult, combines them with the name, and displays the generated roast. If no name is entered, the application asks the user to enter their name first.
 
 ## Installation
 
